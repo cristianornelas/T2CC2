@@ -1,0 +1,59 @@
+inicio-lmg
+
+criar grafo G
+
+criar vertices v : [a,b,c,d,e,f]
+
+criar dados dmurilo : nome="murilo", peso=100, idade=24
+criar dados djoao : nome="Joao", peso=62, idade=12
+criar dados dcarlos : nome="Carlos", peso=77, idade=32
+criar dados dnickson : nome="Nickson", peso=54, idade=34
+criar dados dstephanie : nome="Stephanie", peso=45, idade=55
+criar dados ddiego : nome="Diego", peso=70, idade=33
+
+adicionar vertices v ao grafo G
+
+adicionar dados dmurilo ao vertice a do grafo G
+adicionar dados djoao ao vertice b do grafo G
+adicionar dados dcarlos ao vertice c do grafo G
+adicionar dados dnickson ao vertice d do grafo G
+adicionar dados dstephanie ao vertice e do grafo G
+adicionar dados ddiego ao vertice f do grafo G
+
+adicionar aresta a1: a--b ao grafo G
+adicionar dado relacao1=1 a aresta a1 do grafo G
+ 
+adicionar aresta a2: a--c ao grafo G
+adicionar dado relacao2="primo" a aresta a2 do grafo G
+
+adicionar aresta a3: c--d ao grafo G
+adicionar dado relacao3="amigos" a aresta a3 do grafo G
+
+adicionar aresta a4: d--e ao grafo G
+adicionar dado relacao4="amigos" a aresta a4 do grafo G
+
+adicionar aresta a5: d--f ao grafo G
+adicionar dado relacao5="irmão" a aresta a5 do grafo G
+
+desenhar grafo G na tela
+
+salvar tela em "relacoes.png"
+
+plotar tela
+
+para cada vertice vert no grafo G:
+	para cada aresta ares no grafo G:
+		para cada vizinho vizi do vertice vert no grafo G:
+			{AEHOOOO}
+		fim-para
+	fim-para
+fim-para
+
+se aresta a1 do grafo G possui nome == "aeho":
+	{comandos}
+senao:
+	se valor de nome no vertice a do grafo G == 123:
+	{comandos}
+	fim-se
+fim-se
+fim-lmg
