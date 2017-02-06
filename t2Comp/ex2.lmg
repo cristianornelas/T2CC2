@@ -1,0 +1,48 @@
+inicio-lmg
+
+criar grafo G
+
+criar vertices v : [a,b,c,d,e,f]
+
+criar dados casa1 : morador="murilo", numero=100, seguranca="alta"
+criar dados casa2 : morador="Joao", numero=370, seguranca="baixa"
+criar dados casa3 : morador="Carlos", numero=225, seguranca="media"
+criar dados casa4 : morador="Nickson", numero=545, seguranca="alta"
+criar dados casa5 : morador="Stephanie", numero=453, seguranca="baixa"
+criar dados casa6 : morador="Diego", numero=701, seguranca="media"
+
+adicionar vertices v ao grafo G
+
+adicionar dados casa1 ao vertice a do grafo G
+adicionar dados casa2 ao vertice b do grafo G
+adicionar dados casa3 ao vertice c do grafo G
+adicionar dados casa4 ao vertice d do grafo G
+adicionar dados casa5 ao vertice e do grafo G
+adicionar dados casa6 ao vertice f do grafo G
+
+
+adicionar aresta a1: a--b ao grafo G
+adicionar dado relacao="Vizinhos" a aresta a1 do grafo G
+
+adicionar aresta a2: a--c ao grafo G
+adicionar dado relacao="Amigos" a aresta a2 do grafo G
+
+adicionar aresta a3: c--d ao grafo G
+adicionar dado relacao="Primos" a aresta a3 do grafo G
+
+adicionar aresta a4: c--e ao grafo G
+adicionar dado relacao="amigos" a aresta a4 do grafo G
+
+adicionar aresta a5: d--f ao grafo G
+adicionar dado relacao="irmao" a aresta a5 do grafo G
+
+desenhar grafo G na tela
+plotar tela
+
+remover vertice f do grafo G
+limpar tela
+
+desenhar grafo G na tela
+plotar tela
+
+fim-lmg

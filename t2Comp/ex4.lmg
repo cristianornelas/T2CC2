@@ -1,0 +1,62 @@
+inicio-lmg
+
+criar grafo direcional G
+
+criar vertices v : [a,b,c,d,e,f]
+
+{dados pra por nos vertices}
+criar dados dcar : nome="car", peso=100, idade=24
+criar dados dbar : nome="bar", peso=23, idade=12
+criar dados dlar : nome="lar", peso=55, idade=55
+criar dados dtar : nome="tar", peso=65, idade=33
+
+{dados pra por no vertice apos inseridos no grafo}
+criar dados vcar : cor="branco"
+criar dados vbar : cor="negro"
+criar dados vlar : cor="amarelo"
+criar dados vtar : cor="vermelho"
+
+
+{adiciona os vertices no grafo}
+adicionar vertices v ao grafo G
+
+
+{adicionar os dados aos vertices no grafo}
+adicionar dados dcar ao vertice a do grafo G
+adicionar dados dbar ao vertice b do grafo G
+adicionar dados dlar ao vertice c do grafo G
+adicionar dados dtar ao vertice d do grafo G
+
+{adiciona arestas direcionais no grafo}
+adicionar aresta a1:a->b ao dgrafo G
+adicionar aresta a2:b->c ao dgrafo G
+adicionar aresta a3:c->d ao dgrafo G
+adicionar aresta a4:d->a ao dgrafo G
+
+{adiciona dado as arestas}
+adicionar dado altura = 200 a aresta a1 do grafo G
+adicionar dado altura = 201 a aresta a2 do grafo G
+adicionar dado altura = 202 a aresta a3 do grafo G
+adicionar dado altura = 203 a aresta a4 do grafo G
+
+adicionar dados vcar ao vertice a do grafo G
+adicionar dados vbar ao vertice b do grafo G
+adicionar dados vlar ao vertice c do grafo G
+adicionar dados vtar ao vertice d do grafo G
+
+
+desenhar grafo G na tela
+plotar tela
+
+para cada vertice x no grafo G: 
+	para cada vertice z no grafo G: 
+		remover vertice x do grafo G
+	fim-para
+fim-para
+
+
+desenhar grafo G na tela
+plotar tela
+
+
+fim-lmg

@@ -1,0 +1,21 @@
+inicio-lmg
+
+criar grafo direcional G
+
+criar vertices v : [a,b,c,d,e,f]
+
+criar dados dmurilo : nome="murilo", peso=100, idade=24
+
+adicionar vertices v ao grafo G
+
+adicionar dados dmurilo ao vertice a do grafo G
+
+
+adicionar aresta a1: a->b ao dgrafo G
+adicionar dado relacao1=1 a aresta a1 do grafo G
+
+desenhar grafo G na tela
+plotar tela
+
+
+fim-lmg

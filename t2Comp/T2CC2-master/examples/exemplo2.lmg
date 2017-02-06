@@ -1,0 +1,48 @@
+inicio-LMG
+
+criar grafo G
+
+vertices v : [a,b,c,d,e,f]
+
+adicionar vertices v em G
+
+dados casa1 : morador=murilo,      numero=100, segurança='alta'
+dados casa2 : morador=Joao,        numero=370, segurança='baixa'
+dados casa3 : morador=Carlos,      numero=225, segurança='media'
+dados casa4 : morador=Nickson,     numero=545, segurança='alta'
+dados casa5 : morador=Stephanie,   numero=453, segurança='baixa'
+dados casa6 : morador=Diego,       numero=701, segurança='media'
+
+adicionar casa1 ao vertice a em G
+adicionar casa2 ao vertice b em G
+adicionar casa3 ao vertice c em G
+adicionar casa4 ao vertice d em G
+adicionar casa5 ao vertice e em G
+adicionar casa6 ao vertice f em G
+
+
+adicionar aresta a1: a--b em G:
+adicionar dados relacao="Vizinhos" a aresta a1: a--b em G
+
+adicionar aresta a2: a--c em G
+adicionar dados relacao="Amigos" a aresta a2: a--c em G
+
+adicionar aresta a3: c--d em G
+adicionar dados relacao="Primos" a aresta a3: c--d em G
+
+adicionar aresta a4: c--e em G
+adicionar dados relacao="amigos" a aresta a4: c--e em G
+
+adicionar aresta a5: d--f em G
+adicionar dados relacao="irmão" a aresta a5: d--f em G
+
+desenhar G em tela
+plotar tela
+
+remover Vertice f em G
+limpar tela
+
+desenhar G em tela
+plotar tela
+
+fim-LMG
